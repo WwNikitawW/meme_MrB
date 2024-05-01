@@ -1,0 +1,154 @@
+.boostinfo {
+    width: 100%;
+    height: 530px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    &_img {
+        width: 288px;
+        height: 293px;
+    }
+
+    &_content {
+        text-align: center;
+        &__heading {
+            font-family: "Just Me Again Down Here", cursive;
+            font-weight: 400;
+            font-size: 83px;
+            color: #000;
+        }
+        &__text {
+            font-family: "Long Cang", cursive;
+            font-weight: 400;
+            font-size: 36px;
+            width: 840px;
+            color: #000;
+            &-link {
+                color: #000;
+            }
+        }
+    }
+}
+
+@media (max-width: 1150px) {
+    .boostinfo {
+        &_img {
+            width: 248px;
+            height: 253px;
+        }
+
+        &_content {
+            &__heading {
+                font-size: 80px;
+            }
+    
+            &__text {
+                font-size: 32px;
+                width: 740px;
+            }
+        }
+    }
+}
+
+@media (max-width: 1150px) {
+    .boostinfo {
+        &_img {
+            width: 208px;
+            height: 213px;
+        }
+
+        &_content {
+            &__heading {
+                font-size: 70px;
+            }
+    
+            &__text {
+                font-size: 28px;
+                width: 640px;
+            }
+        }
+    }
+}
+
+@media (max-width: 850px) {
+    .boostinfo {
+        &_img {
+            width: 198px;
+            height: 203px;
+        }
+
+        &_content {
+            &__heading {
+                font-size: 60px;
+            }
+    
+            &__text {
+                font-size: 26px;
+                width: 500px;
+            }
+        }
+    }
+}
+
+@media (max-width: 800px) {
+    .boostinfo {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 800px) {
+    .boostinfo {
+        &_img {
+            width: 135px;
+            height: 137px;
+        }
+
+        &_content {
+            &__heading {
+                font-size: 60px;
+            }
+    
+            &__text {
+                font-size: 25px;
+                width: 480px;
+            }
+        }
+    }
+}
+
+@media (max-width: 550px) {
+    .boostinfo {
+        &_img {
+            width: 125px;
+            height: 127px;
+        }
+        &_content { 
+            &__text {
+                font-size: 25px;
+                width: 380px;
+            }
+        }
+    }
+}
+
+@media (max-width: 400px) {
+    .boostinfo {
+        &_img {
+            width: 115px;
+            height: 117px;
+        }
+
+        &_content {
+            &__heading {
+                font-size: 55px;
+            }
+    
+            &__text {
+                font-size: 22px;
+                width: 300px;
+            }
+        }
+    }
+}
+

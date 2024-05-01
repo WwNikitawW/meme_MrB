@@ -1,0 +1,119 @@
+.buy {
+    background-color: #004AAD;
+    width: 100%;
+    min-height: 700px;
+    position: relative;
+
+    &_mony {
+        position: absolute;
+        width: 220px;
+        height: 220px;
+        top: -30px;
+        right: 0;
+    }
+
+    &__heading {
+        font-family: "Just Me Again Down Here", cursive;
+        font-weight: 400;
+        color: #fff;
+        font-size: 99px;
+        margin-left: 10%;
+    }
+
+    &_block {
+        width: 100%;
+        min-height: 500px;
+        display: flex;
+	    flex-direction: row;
+	    flex-wrap: wrap;
+	    justify-content: center;
+	    align-items: center;
+        &__blocks {
+            width: 415px;
+            padding: 10px 20px;
+            text-align: left;
+            &-heading {
+                font-family: "Just Me Again Down Here", cursive;
+                font-weight: 400;
+                color: #fff;
+                font-size: 44px;
+            }
+            &-text {
+                margin-top: 10px;
+                font-family: "Long Cang", cursive;
+                font-weight: 400;
+                font-size: 30px;
+                color: #fff;
+                a {
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 800px) {
+    .buy {
+        text-align: center;
+        &_mony {
+            width: 180px;
+            height: 180px;
+            top: -80px;
+        }
+        &__heading {
+            font-size: 80px;
+            margin-left: 0;
+        }
+        &__blocks {
+            padding: 10px 0px;
+        }
+    }
+}
+
+@media (max-width: 700px) {
+    .buy {
+        text-align: center;
+        &_mony {
+            width: 140px;
+            height: 140px;
+            top: -60px;
+        }
+        &__heading {
+            font-size: 60px;
+            margin-left: 0;
+        }
+        &_block {
+            &__blocks {
+                width: 415px;
+                padding: 10px 20px;
+                &-heading {
+                    font-size: 38px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 550px) {
+    .buy {
+        margin-top: 50px;
+        &__heading {
+            padding-top: 50px;
+        }
+        &_block {
+            &__blocks {
+                width: 350px;
+            }
+        }
+    }
+}
+
+@media (max-width: 450px) {
+    .buy {
+        &_block {
+            &__blocks {
+                width: 300px;
+            }
+        }
+    }
+}
