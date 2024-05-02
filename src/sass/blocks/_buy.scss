@@ -30,6 +30,7 @@
 	    align-items: center;
         &__blocks {
             width: 415px;
+	    min-height: 310px;
             padding: 10px 20px;
             text-align: left;
             &-heading {
